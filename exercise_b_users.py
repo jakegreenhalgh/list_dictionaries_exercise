@@ -76,4 +76,18 @@ users["Erik"]["home_town"]="Edinburgh"
 # 9. Add a pet dog to Erik called "fluffy"
 users["Erik"]["pets"][0] = {"name" : "fluffy", "species": "dog"}
 # 10. Add another person to the users dictionary
-users["Jim"]
+users["Jim"] = {
+    "twitter": "jimbob007",
+    "lottery_numbers": [15, 22, 19, 16, 4],
+    "home_town": "Dunfermline",
+    "pets": [
+    {
+      "name": "skip",
+      "species": "dog"
+    },
+    {
+      "name": "parrot",
+      "species": "beaky"
+    }
+  ]
+  }
